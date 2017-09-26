@@ -1,6 +1,7 @@
 
 .icon {
     border-radius: 50%;
+   
 }
 
 .post {
@@ -11,6 +12,21 @@
  transition: opacity 1s ease-in-out;
 } 
 .userphoto:hover { 
-    opacity: 1.0;
+    opacity: 5.0;
     transition: opacity .55s ease-in-out;
 } 
+.head {
+    padding-left: 250px; 
+    padding-bottom: 40px;
+}
+.head:hover {
+    color: green;
+}
+h2 {
+    text-transform: uppercase;
+}
+
+
+h3:hover {
+    color:red;
+}
