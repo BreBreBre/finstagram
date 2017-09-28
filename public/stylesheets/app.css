@@ -1,32 +1,45 @@
 
 .icon {
     border-radius: 50%;
-   
 }
 
 .post {
     padding: 20px 20px;
 }
+
 .userphoto { 
  opacity: 0.6;
  transition: opacity 1s ease-in-out;
 } 
+
 .userphoto:hover { 
     opacity: 5.0;
     transition: opacity .55s ease-in-out;
 } 
+
 .head {
-    padding-left: 250px; 
-    padding-bottom: 40px;
+  
+    text-transform:uppercase;
 }
+
 .head:hover {
     color: green;
 }
+
 h2 {
     text-transform: uppercase;
 }
 
+h3 {
+    font-size: smaller;
+    border-style: dotted;
+    padding: 5px 5px;
+}
 
 h3:hover {
     color:red;
+}
+
+p {
+    font-weight: bold;
 }

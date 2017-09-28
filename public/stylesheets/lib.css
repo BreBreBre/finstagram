@@ -29,6 +29,7 @@ header {
   overflow: hidden;
   display: flex;
   align-items: baseline;
+  text-align: left;
 }
 
 header > .login-info {
