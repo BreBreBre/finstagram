@@ -26,10 +26,15 @@ input[type=text], input[type=password], input[type=email] {
 }
 
 header {
+  font-size: 30px; 
+  border-box: 20px; 
+  text-transform: uppercase;
+  background-color: #244751;
   overflow: hidden;
   display: flex;
   align-items: baseline;
   text-align: left;
+  padding-bottom: 20px;
 }
 
 header > .login-info {
@@ -50,8 +55,12 @@ main {
   display: inline-block;
   padding: 1em;
   width: 100%;
-  border-radius: 4px;
+  border-radius: 2px;
   box-sizing: border-box;
+  background: lightblue;
+  color:white;
+  
+  
 }
 
 .button {

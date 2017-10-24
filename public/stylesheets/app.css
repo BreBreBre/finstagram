@@ -15,15 +15,7 @@
 .userphoto:hover { 
     opacity: 5.0;
     transition: opacity .55s ease-in-out;
-} 
 
-.head {
-  
-    text-transform:uppercase;
-}
-
-.head:hover {
-    color: green;
 }
 
 h2 {
@@ -42,4 +34,13 @@ h3:hover {
 
 p {
     font-weight: bold;
+}
+
+.button{
+    background-color: darkblue;
+    border-radius: 4px;
+}
+
+.login-info {
+    color: white;
 }
