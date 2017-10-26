@@ -114,3 +114,4 @@ delete '/likes/:id' do
     like.destroy 
     redirect(back)
 end
+

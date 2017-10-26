@@ -6,6 +6,8 @@ body, input {
   font-family: 'Roboto Condensed', sans-serif;
   margin: 0;
   color: #244751;
+  font-weight: bold;
+ 
 }
 
 a {
@@ -27,14 +29,12 @@ input[type=text], input[type=password], input[type=email] {
 
 header {
   font-size: 30px; 
-  border-box: 20px; 
   text-transform: uppercase;
   background-color: #244751;
-  overflow: hidden;
+  
   display: flex;
-  align-items: baseline;
-  text-align: left;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
+  
 }
 
 header > .login-info {
@@ -49,6 +49,8 @@ main {
 .new-post {
   text-align: center;
   margin-bottom: 2em;
+  font-weight: bold;
+  
 }
 
 .new-post > .button {
@@ -59,7 +61,7 @@ main {
   box-sizing: border-box;
   background: lightblue;
   color:white;
-  
+  font-weight: bold;
   
 }
 
@@ -106,12 +108,13 @@ main {
 }
 
 .actions button.user-like {
-  color: #FF2600;
-  border-color: #FF2600;
+  border-radius: 50%;
+  border: hidden;
 }
 
 .actions .comment-count {
   margin-left: auto;
+  
 }
 
 .comments {

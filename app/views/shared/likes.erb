@@ -8,7 +8,7 @@
         <form action="/likes/<%= like.id %>" method="POST"> 
             <input name="_method" type="hidden" value="delete"> 
             <button class="button user-like" type="submit"> 
-                <%= post.like_count %> likes
+                <%= post.like_count %> <img class="heart" src="http://images.clipartpanda.com/white-heart-black-background-RiGg4BKiL.svg"> 
             </button>
         </form>
         
@@ -18,12 +18,12 @@
         <form action="/likes" method="POST"> 
             <input type="hidden" name="post_id" value="<%= post.id %>"> 
             <button class="button" type="submit"> 
-                <%= post.like_count %> likes 
+                <%= post.like_count %> <img class="heart" src="http://images.clipartpanda.com/white-heart-black-background-RiGg4BKiL.svg"> 
             </button>
         </form>
     <% end %> 
 <% else %> 
 
     <!-- Show like count without any form --> 
-        <%= post.like_count %> likes
+        <%= post.like_count %> <img class="heart" src="http://images.clipartpanda.com/white-heart-black-background-RiGg4BKiL.svg"> 
     <% end %>
